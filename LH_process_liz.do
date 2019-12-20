@@ -1,4 +1,8 @@
-** Liz Bageant
+*
+
+blah blah blah
+
+* Liz Bageant
 ** September 2 2016
 
 ** Reshape and organize Livelihood Survey
@@ -15,8 +19,6 @@ use "$stata/Livelihood_Cover.dta",clear // open original file
 	drop a1 a3 a4 
 	* renaming and labeling
 	ren a2 enum
-	la var enum "Enumerator name"
-	ren a5 int_day
 	ren a6 int_mon
 	ren a7 int_year 
 	la var int_year "Year of interview"
